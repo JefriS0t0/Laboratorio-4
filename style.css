@@ -1,0 +1,98 @@
+table,
+th,
+td,
+tr {
+  border: 3px double;
+  margin: 90px 640px;
+  padding: 20px 30px;
+}
+
+table {
+  background-color: rgba(115, 217, 248, 0.897);
+}
+body {
+  background-color: rgba(22, 107, 113, 0.763);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Ponemos efecto hover al link */
+a:hover {
+  color: rgba(22, 107, 113, 0.763);
+}
+
+a{
+    text-decoration: none;
+}
+
+img.tv,
+div.pl {
+  width: 90px;
+  height: 60px;
+  display: inline-block;
+  object-fit: cover;
+}
+img.tv{
+    padding-left: 2px;
+}
+img.play {
+  width: 90px;
+  height: 60px;
+
+}
+img.repro {
+  width: 90px;
+  height: 60px;
+
+}
+
+div.pl,div.tvs,div.rv {
+  width: auto;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 60px;
+  padding-top:350px ;
+
+}
+
+th.titulo{
+    font-size: 40px;
+    padding: 0px;
+
+}
+
+th.total{
+    font-size: 30px;
+    padding: 0px;   
+}
+
+body.sure{
+
+    text-align: center;
+
+}
+input{
+    width: 500px;
+    height: 35px;
+    background-color: blueviolet;
+    font-size: 100%;
+    font-family: "Poppins", sans-serif;
+    color: black;
+}
+input:hover{
+    color: white;
+}
+
+th.confirm{
+    padding: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+td {
+
+    text-align: center;
+}
